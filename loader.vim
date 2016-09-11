@@ -1,5 +1,5 @@
 " http://superuser.com/questions/543317/what-is-compatible-mode-in-vim
-" use Vim mode instead of pure Vi, it must be the first instruction
+" Use Vim mode instead of pure Vi, it must be the first instruction
 set nocompatible
 
 " Wraps path to make them relative to this directory
