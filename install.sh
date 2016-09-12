@@ -6,5 +6,5 @@ fi
 vim +'PlugSnapshot $HOME/.vim/revert.sh' +PlugUpgrade +PlugClean! +PlugUpdate +qa
 
 cd ~/vimrc
-cat ~/vimrc/loader.vim > ~/.vimrc
+echo 'source ~/vimrc/loader.vim' > ~/.vimrc
 echo 'Install the Awesome Vim configuration successfully! Enjoy :)'

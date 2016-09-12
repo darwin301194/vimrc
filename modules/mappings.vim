@@ -20,4 +20,6 @@ noremap <leader>q :q<cr>
 
 " Save file
 nnoremap <leader>w :w<cr>
-inoremap <leader>w <C-c>:w<cr>
+
+" Quickly Exiting Insert-Mode in Vim
+inoremap kj <Esc>
