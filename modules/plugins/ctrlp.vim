@@ -1,6 +1,2 @@
-let g:ctrlp_lazy_update = 100
-let g:ctrlp_clear_cache_on_exit = 0
-
-if executable("ag")
-  let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
-endif
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|bower_components|vendor)|(\.(swp|ico|git|svn))$'
+let g:ctrlp_show_hidden = 1
