@@ -23,6 +23,7 @@ set nobackup                                " do not keep the backup ~file
 " Edit settings
 set backspace=indent,eol,start              " backspacing over everything in insert mode
 set nojoinspaces                            " no extra spaces after '.' when joining lines
+set expandtab                               " insert space character whenever the tab is pressed
 set shiftwidth=2                            " 1 tab === 2 spaces
 set tabstop=2
 set textwidth=80                            " wrap existing text at 80 Characters
