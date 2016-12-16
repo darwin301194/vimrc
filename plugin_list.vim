@@ -11,6 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim'                   " find files and folder
 Plug 'flazz/vim-colorschemes'               " one stop shop for vim colorschemes
 Plug 'Townk/vim-autoclose'                  " autoclose brace () {}
 Plug 'mattn/emmet-vim'                      " emmet! emmet! emmet!
+Plug 'dikiaap/minimalist'                   " minimalist vim color
 
 " Javascript
 Plug 'pangloss/vim-javascript'              " indentation + syntax

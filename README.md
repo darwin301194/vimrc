@@ -51,6 +51,7 @@ When you start using vim for the first time, your habits fight you every inch of
 * I change the save and quit file with `space+w` and `space+q`
 * I change the window navigation with `ctrl+(h/j/k/l)`
 * I change the tabs with `shift+(l/h)`
+* I create the toggle for NERDTree with `F3`
 
 ##### lastly, practicemakesperfect!
 

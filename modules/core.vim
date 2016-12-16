@@ -15,6 +15,7 @@ set ruler                                   " show the cursor position all the t
 set number                                  " show the number
 set showmatch                               " highlight matching braces
 set showmode                                " show insert/replace/visual mode
+set autoindent
 
 " Write settings
 set confirm                                 " confirm :q in case of unsaved changes
@@ -26,7 +27,8 @@ set nojoinspaces                            " no extra spaces after '.' when joi
 set expandtab                               " insert space character whenever the tab is pressed
 set shiftwidth=2                            " 1 tab === 2 spaces
 set tabstop=2
-set textwidth=80                            " wrap existing text at 80 Characters
+set softtabstop=2
+set nowrap
 
 " Search settings
 set hlsearch                                " highlight search results

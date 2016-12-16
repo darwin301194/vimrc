@@ -23,3 +23,6 @@ nnoremap <leader>w :w<cr>
 
 " Quickly Exiting Insert-Mode in Vim
 inoremap kj <Esc>
+
+" Toggle NerdTree using F3
+nmap <silent> <F3> :NERDTreeToggle<cr>
