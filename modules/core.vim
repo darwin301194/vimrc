@@ -16,6 +16,7 @@ set number                                  " show the number
 set showmatch                               " highlight matching braces
 set showmode                                " show insert/replace/visual mode
 set autoindent
+set cindent
 
 " Write settings
 set confirm                                 " confirm :q in case of unsaved changes
@@ -38,8 +39,8 @@ set smartcase
 
 " File type spesific settings
 filetype off
-filetype plugin on                          " load the plugins for specific file types
-filetype indent on                          " automatically indent code
+" filetype plugin on                          " load the plugins for specific file types
+filetype plugin indent on                          " automatically indent code
 
 " Disabling swap files creation in vim
 set noswapfile
